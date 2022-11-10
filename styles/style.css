@@ -1,0 +1,675 @@
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url(./fonts/HindMadurai-Regular.ttf);
+    font-weight: 400px;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url(/styles/fonts/HindMadurai-SemiBold.ttf);
+    font-weight: 700px;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto-Regular.ttf);
+    font-weight: 400px;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/Roboto-Medium.ttf);
+    font-weight: 500px;
+}
+
+body {
+    margin: 0;
+    min-width: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section1 {
+    min-height: 800px;
+    background: #F2CEDA;
+}
+
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    width: 550px;
+    text-decoration: none;
+}
+
+.navbar-links a span {
+    color: #D23166;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    opacity: 0.6;
+}
+
+.navbar-wrapper a:nth-child(2n+1) {
+    padding: 0 40px;
+}
+
+.navbar-wrapper button {
+    background: #D23166;
+    border-radius: 5px;
+    padding: 14px 50px;
+    border: none;
+}
+
+.navbar-wrapper button span {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+
+}
+
+.section1-wrapper {
+    background-image: url('../imges/section1-img1.png'), url('../imges/section1-img2.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-position-x: 580px, 600px;
+    background-position-y: 130px, 0;
+    background-size: 500px, 500px;
+    padding-top: 130px;
+}
+
+.section1-subtitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+    margin-bottom: 6px;
+}
+
+.section1-title {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    opacity: 0.9;
+    width: 560px;
+    margin-top: 35px;
+}
+
+.section1-title span {
+    color: #D23166;
+}
+
+.section1-text {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+    width: 480px;
+    margin-bottom: 50px;
+}
+
+.section1-button {
+    background: #D23166;
+    border-radius: 5px;
+    border: none;
+    padding: 14px 50px;
+}
+
+.section1-button span {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+}
+
+.section2 {
+    background-color: #E5E5E5;
+    height: 500px;
+}
+
+.section2-boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.section2-box {
+    background: #FFFFFF;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+    width: 250px;
+    height: 210px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    padding: 33px 25px 27px 25px;
+}
+
+.section2-box h2 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin: 24px 0 9px 0;
+}
+
+.section2-box p {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+    width: 190px;
+    margin: 0 auto;
+}
+
+.section3 {
+    background-color: #F2CEDA;
+    ;
+}
+
+.section3-wrapper {
+    height: 500px;
+    background-image: url('../imges/section3-img.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+    padding: 140px 0;
+}
+
+.section3-wrapper h2 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+    width: 400px;
+    margin-bottom: 110px;
+}
+
+.section3-wrapper button {
+    background: #D64374;
+    border-radius: 5px;
+    border: none;
+    padding: 14px 50px;
+}
+
+.section3-wrapper button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FAFAFA;
+}
+
+.section4 {
+    background-color: #E5E5E5;
+}
+
+.section4-subtitle {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    text-align: center;
+}
+
+.section4-links {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.section4-links a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+    margin-top: 64px;
+}
+
+.section4-links a span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+    text-decoration: 2px underline red;
+    opacity: 1;
+}
+
+.section4-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.section4-text-subtitle {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    padding-top: 60px;
+}
+
+.section4-text-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    width: 420px;
+    margin-top: 11px;
+}
+
+.section4-text-sum {
+    display: flex;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.section4-text-sum1 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.section4-text-sum2 {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+    padding-left: 5px;
+}
+
+.section4-box button {
+    border: none;
+    background: #D64374;
+    border-radius: 5px;
+    padding: 14px 50px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.section4-box button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FAFAFA;
+}
+
+.section4-box1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 115px 0 150px 0;
+}
+
+.secttion4-box1-title {
+    display: flex;
+    padding-top: 130px;
+}
+
+.section4-box1-text h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-left: 21px;
+}
+
+.section4-box1-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.7;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+.section4-box1-ice {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    width: 340px;
+}
+
+.section4-box1-img {
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.section4-box1-img img:nth-child(2n+1) {
+    padding: 0 21px;
+}
+
+.section4-box-imges {
+    padding: 0 28px;
+}
+
+.section5 {
+    background: #F8EDF0;
+    height: 625px;
+}
+
+.section5-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section5-wrapper-text h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    color: #000000;
+    padding-top: 90px;
+}
+
+.section5-wrapper-text p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #0F0101;
+    opacity: 0.7;
+    width: 600px;
+    margin-top: 20px;
+}
+
+.section5-wrapper-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section5-wrapper-logo a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
+.section5-wrapper-imges {
+    display: flex;
+    align-items: center;
+    margin-top: 41px;
+}
+
+.section5-wrapper {
+    padding-top: 40px;
+}
+
+.section6-wrappwer {
+    text-align: center;
+    padding: 190px 250px 140px 250px;
+}
+
+.section6-wrappwer h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    width: 520px;
+}
+
+.section6-button {
+    width: 637px;
+    height: 50px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 28px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.section6-button a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+    opacity: 0.6;
+}
+
+.section6-button button {
+    border: none;
+    background: #D64374;
+    border-radius: 5px;
+    padding: 15px 35px;
+    margin-left: auto;
+}
+
+.section6-button button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+footer {
+    background: #0A0808;
+}
+
+.footer-logo {
+    padding-top: 70px;
+}
+
+.footer-wrapper-text1 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    opacity: 0.7;
+    width: 200px;
+    margin-top: 9px;
+}
+
+.footer-wrapper-text1 h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.footer-logs {
+    margin-top: 9px;
+    display: flex;
+}
+
+.footer-logs img:nth-child(2n) {
+    margin: 0 10px;
+}
+
+.footer-wrapper {
+    display: flex;
+}
+
+.footer-wrapper-text2 {
+    padding: 140px 132px 100px 37px;
+}
+
+.footer-wrapper-text2 h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer-wrapper-text2 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.footer-wrapper-text3 {
+    padding: 150px 150px 120px 0;
+}
+
+.footer-wrapper-text3 p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.footer-wrapper-text4 h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-top: 136px;
+}
+
+.footer-wrapper-text4-button {
+    width: 388px;
+    height: 55px;
+    opacity: 0.5;
+    border: 2px solid #D64374;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.footer-wrapper-text4-button a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    text-decoration: none;
+    padding-left: 32px;
+}
+
+.footer-wrapper-text4-button button {
+    background: #D23166;
+    border-radius: 5px;
+    padding: 16px 18px;
+    border: none;
+}
+
+.footer-wrapper-text4-button button span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+}
+.footer-wrapper-logs2{
+    margin-top: 15px;
+}
+.footer-wrapper-logs2 svg:nth-child(2n){
+    margin: 0 15px;
+}
